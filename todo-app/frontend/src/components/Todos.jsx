@@ -1,6 +1,4 @@
-import React from "react";
-
-const Todos = ({ todos }) => {
+export const Todos = ({ todos }) => {
   return (
     <div>
       {todos.map((todo) => {
@@ -9,7 +7,7 @@ const Todos = ({ todos }) => {
             <h1>{todo.title}</h1>
             <h2>{todo.description}</h2>
             <button>
-              {todo.completed === true ? "Completed" : "Mark as done"}
+              {todo.completed == true ? "Completed" : "Mark as done"}
             </button>
           </div>
         );
@@ -17,5 +15,3 @@ const Todos = ({ todos }) => {
     </div>
   );
 };
-
-export default Todos;
