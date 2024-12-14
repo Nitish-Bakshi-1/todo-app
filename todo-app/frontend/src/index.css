@@ -53,6 +53,17 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+input {
+  padding: 10px 20px 10px 20px;
+  margin: 20px;
+  width: 300px;
+}
+.todo-div {
+  background-color: grey;
+  margin: 0.5rem;
+  padding: 0.2rem;
+  border-radius: 5px;
+}
 
 @media (prefers-color-scheme: light) {
   :root {
