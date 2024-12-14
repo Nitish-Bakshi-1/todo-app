@@ -23,7 +23,7 @@ export const CreateTodo = () => {
       <br />
       <button
         onClick={() => {
-          fetch("http://localhost:3000/todos", {
+          fetch("http://localhost:3000/todo", {
             method: "POST",
             body: JSON.stringify({
               title: title,
