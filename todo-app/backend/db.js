@@ -1,7 +1,5 @@
 const mongoose = require("mongoose");
-mongoose.connect(
-  "mongodb+srv://admin:2k9SlYj4HLGfSltI@cluster0.j7jusce.mongodb.net/todo-app-now"
-);
+mongoose.connect("your mongo db url");
 
 const todoSchema = mongoose.Schema({
   title: String,
